@@ -1,0 +1,12 @@
+stage,name,write_time_sec,size_bytes,size_human,read_time_sec,num_files,sample_subdirs
+write,CSV,18.077,589674505,562.36 MB,,,
+write,JSON,18.031,2703802671,2.52 GB,,,
+write,PARQUET,21.012,157886120,150.57 MB,,,
+write,ORC,20.006,199225744,190.00 MB,,,
+read_query,CSV,,,,16.95,,
+read_query,JSON,,,,39.311,,
+read_query,PARQUET,,,,0.968,,
+read_query,ORC,,,,1.009,,
+partition_control,repartition(20),18.855,158119249,150.79 MB,,20,
+partition_control,coalesce(2),10.089,141920947,135.35 MB,,2,
+partition_control,"partitionBy(YEAR,MONTH)",11.755,141496300,134.94 MB,,16,YEAR=2015;YEAR=2015\MONTH=1;YEAR=2015\MONTH=10;YEAR=2015\MONTH=11;YEAR=2015\MONTH=12

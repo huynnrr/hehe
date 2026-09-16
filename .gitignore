@@ -1,0 +1,11 @@
+__pycache__/
+
+flights.csv
+
+output*/
+!output_full_31cols/
+!output_sample_1pct_31cols/
+output_full_31cols/*
+output_sample_1pct_31cols/*
+!output_full_31cols/benchmark_results.csv
+!output_sample_1pct_31cols/benchmark_results.csv
